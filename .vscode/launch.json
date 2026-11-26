@@ -1,0 +1,87 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "[RUN] Adaptec1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--benchmark", "adaptec1",
+                "--seed", "42",
+                "--gpu", "0",
+                "--folder", "adaptec1-seed_42",
+                "--log", "debug"
+            ]
+        }, {
+            "name": "[RUN] Adaptec2",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--benchmark", "adaptec2",
+                "--seed", "42",
+                "--gpu", "0",
+                "--folder", "adaptec2-seed_42",
+                "--log", "debug"
+            ]
+        }, {
+            "name": "[RUN] Adaptec3",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--benchmark", "adaptec3",
+                "--seed", "42",
+                "--gpu", "0",
+                "--folder", "adaptec3-seed_42",
+                "--log", "debug"
+            ]
+        }, {
+            "name": "[RUN] Adaptec4",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--benchmark", "adaptec4",
+                "--seed", "42",
+                "--gpu", "0",
+                "--folder", "adaptec4-seed_42",
+                "--log", "debug"
+            ]
+        }, {
+            "name": "[RUN] Bigblue1",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--benchmark", "bigblue1",
+                "--seed", "42",
+                "--gpu", "0",
+                "--folder", "bigblue1-seed_42",
+                "--log", "debug"
+            ]
+        }, {
+            "name": "[RUN] Bigblue3",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--benchmark", "bigblue3",
+                "--seed", "42",
+                "--gpu", "0",
+                "--folder", "bigblue3-seed_42",
+                "--log", "debug"
+            ]
+        }
+    ]
+}

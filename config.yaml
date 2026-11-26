@@ -1,0 +1,2 @@
+torch_max_split_size_mb: 512
+number_of_cpus: 8
